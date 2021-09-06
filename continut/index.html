@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <script type="text/javascript" src="js/script.js"></script>
+    <script type="text/javascript" src="js/persoane.js"></script>
+    <script type="text/javascript" src="js/cumparaturi.js"></script>
+    
+    
+    <title>PW-Lab3</title>
+    <meta charset="utf-8"/>
+    <link rel="stylesheet" type="text/css" href="css/stil.css"/>
+  </head>
+  <body onload="schimbaContinut('acasa')">
+      <header>
+            <img src="imagini\pisici.png" alt="pisici" width="200" height="300"/>
+            <p><h1 id="myP" onmousedown="mouseDown()" onmouseup="mouseUp()">Despre pisici </h1></p>
+           
+      </header>
+      <nav>
+          <h3>
+          <a onclick="schimbaContinut('acasa')">Acasă</a>&nbsp;&nbsp;&nbsp;
+          <a onclick="schimbaContinut('inregistreaza')">Inregistrează</a>&nbsp;&nbsp;&nbsp;
+          <a onclick="schimbaContinut('video')">Video</a>&nbsp;&nbsp;&nbsp;
+          <a onclick="schimbaContinut('desen')">Desen</a>&nbsp;&nbsp;&nbsp;
+          <a onclick="schimbaContinut('despre_html')">Despre</a>&nbsp;&nbsp;&nbsp;
+          <a onclick="schimbaContinut('invat_js')">JavaScript</a>&nbsp;&nbsp;&nbsp;
+          <a onclick="schimbaContinut('persoane', 'js/persoane.js', 'incarcaPersoane')">Persoane</a>&nbsp;&nbsp;&nbsp;
+          <a onclick="schimbaContinut('verifica')">Verifică</a>&nbsp;&nbsp;&nbsp;
+          <a onclick="schimbaContinut('cumparaturi','js/script.js')">Cumpărături</a>&nbsp;&nbsp;&nbsp;
+          </h3>
+        <div class="line"></div>
+
+     </nav>
+     <main id="continut">
+    </main>
+    <footer>
+        &copy;2021.IchimPaulaMadalina
+    </footer>
+
+
+
+  </body>
+</html>>

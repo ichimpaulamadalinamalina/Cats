@@ -1,0 +1,79 @@
+
+            <aside>
+            <p><a href="#C1">Sectiunea 1</a></p>
+            <p><a href="#C2">Sectiunea 2</a></p>
+            <p><a href="#C3">Sectiunea 3</a></p>
+            <p><a href="#C4">Sectiunea 4</a></p>
+            </aside>
+           <section>
+                <h2 id="C1">Informatii</h2>
+                <h3>Date and Time:</h3>
+
+                <p id="demo"></p>
+                <button onclick="setInterval(data, 1000)">Afisare data</button>
+            
+
+                <h3>URL:</h3>
+
+                <p id="demo2"></p>
+                <button onclick="url()">Afisare URL</button>
+
+                <h3>Versiune: </h3><p id="versiune">
+                    <button onclick="Versiune()">Versiune</button>
+                </p>
+
+                <h3>Location:</h3>
+                
+                <button onclick="getLocation()">Locatie</button>
+                <p id="locatie"></p>
+                
+        
+
+                <h3>Browser:</h3>
+                <p id="demo3">
+                <button onclick="malina1()">Browser</button>
+
+            
+                <div id="demo3"></div>
+            </section>
+
+            <section>
+                <h2 id="C2">Loto</h2>
+                <p>Numerele castigatoare sunt: <span id="castigatoare"></span></p>
+                <p id="mesajCastigator"></p>
+                <p>Numar 1: <input class='numarLoto' type="text" /></p>
+                <p>Numar 2: <input class='numarLoto' type="text" /></p>
+                <p>Numar 3: <input class='numarLoto' type="text" /></p>
+                <p>Numar 4: <input class='numarLoto' type="text" /></p>
+                <p>Numar 5: <input class='numarLoto' type="text" /></p>
+                <p>Numar 6: <input class='numarLoto' type="text" /></p>
+                <p>Numar 7: <input class='numarLoto' type="text" /></p>
+                <p>Numar 8: <input class='numarLoto' type="text" /></p>
+                <p><button onclick="extragere()" >Extrage numere</button></p>
+            </section>
+            <section>
+                <h2 id="C3">Desen</h2>
+                <label for="culoaretrasare">Contur</label>
+                <input id="culoaretrasare"  type="color"><br>
+                <label for="culoareumplere">Umplere</label>
+                <input id="culoareumplere"  type="color"><br>
+
+                <canvas id="desen1" onclick="drawsquare(event)" style="border:1px solid; width:100%; height:300px;background-color:white";></canvas>
+                
+            </section>
+            <section>
+                <h2 id="C4">Desenare tabel</h2>
+                <label for="poz">Pozitie</label>
+                <input id="poz"  type="text"><br>
+                <button onclick="insertNewCol()">Coloana Noua</button>
+                <button onclick="insertNewRow()">Linie noua</button>
+                <button onclick="generate_table()">Tabel 2*2</button>
+                <div id="div">
+                    <p id="myTable"></p>
+                  </div>
+        
+                
+               
+               
+            </section>
+      

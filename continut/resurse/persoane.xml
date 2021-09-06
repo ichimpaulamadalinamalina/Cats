@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<persoane>
+    <persoana id="1">
+        <nume>Popescu</nume>
+        <prenume>Ion</prenume>
+        <varsta>23</varsta>
+        <adresa>
+            <strada>Libertatii</strada>
+            <numar>13</numar>
+            <localitate> Iasi</localitate>
+            <judet>Iasi</judet>
+            <tara>Romania</tara>
+        </adresa>>
+        <email> popescuion@gmail.com</email>
+        <telefon>0798845657</telefon>
+    </persoana>
+    <persoana id="2">
+            <nume>Popa</nume>
+            <prenume>Ana</prenume>
+            <varsta>28</varsta>
+            <adresa>
+                <strada>Florilor</strada>
+                <numar>14</numar>
+                <localitate> Roman</localitate>
+                <judet>Neamt</judet>
+                <tara>Romania</tara>
+            </adresa>>
+            <email> popaana@gmail.com</email>
+            <telefon>0761233456</telefon>
+        </persoana>
+        <persoana id="3">
+                <nume>Anton</nume>
+                <prenume>Andreea</prenume>
+                <varsta>25</varsta>
+                <adresa>
+                    <strada>Primaverii</strada>
+                    <numar>199</numar>
+                    <localitate> Bacau</localitate>
+                    <judet>Bacau</judet>
+                    <tara>Romania</tara>
+                </adresa>>
+                <email> antonandreea@gmail.com</email>
+                <telefon>0788541234</telefon>
+            </persoana>
+</persoane>
