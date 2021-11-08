@@ -1,2 +1,2 @@
 # Cats
-School Web site for Web Programming 
+School Website for Web Programming 
